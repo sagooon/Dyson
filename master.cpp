@@ -21,8 +21,8 @@ void setup() {
   X.attach(10);
   X.write(0);
 
-  X.attach(11);
-  X.write(0);
+  Y.attach(11);
+  Y.write(0);
   
   Serial.begin(9600);
   delay(500);
